@@ -1,4 +1,6 @@
 import sys 
+from tkinter import *
+import sys 
 import tkinter as tk 
 #PrintLogger code from Quora
 class PrintLogger: 
@@ -29,7 +31,7 @@ def login():
     E1 = Entry(root, width = 50)
     E1.pack(side = RIGHT)
 
-
+.TK
 userbutton = tk.Button(text="User Login", 
                    command=login)
 userbutton.pack()
