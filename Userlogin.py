@@ -28,10 +28,9 @@ hello.pack()
 
 def login():
     print("Please input a username")
-    E1 = Entry(root, width = 50)
-    E1.pack(side = RIGHT)
 userbutton = tk.Button(text="User Login", 
                    command=login)
 userbutton.pack()
- 
 tk.mainloop()
+
+    
